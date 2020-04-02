@@ -170,6 +170,10 @@ header .header__content .header__content--description {
   color: #3c3c3c;
 }
 
+.services .services__content .services__content--title:after {
+  content: "";
+}
+
 .services .services__content .services__content--text {
   font-size: 16px;
   color: #fff;

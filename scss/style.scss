@@ -156,6 +156,10 @@ header{
         .services__content--title{
             background-color: transparent;
             color: #3c3c3c;
+            &:after{
+                content: "";
+                
+            }
         }
         .services__content--text{
             font-size: 16px;
