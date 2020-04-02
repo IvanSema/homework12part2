@@ -62,7 +62,7 @@ h1, h2 {
   font-size: 34px;
   text-align: center;
   margin: -20px auto 68px auto;
-  width: 420px;
+  width: 100%;
 }
 
 .block-wrapper .block-wrapper__text {
@@ -183,26 +183,20 @@ header .header__content .header__content--description {
 
 .description .description__headline {
   background-color: white;
-  font-size: 34px;
-  color: #3c3c3c;
-  text-align: center;
-  margin: -20px auto 68px auto;
-  width: 420px;
 }
 
 .row--wrapper {
   margin: -5px 0 0 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  padding: 0 15px;
 }
 
 .row--wrapper .row [class^="col-"] {
-  padding: 5px 0 5px 10px;
+  padding: 5px;
 }
 
 .row--wrapper .row [class^="col-"] .row__content {
   text-transform: uppercase;
-  padding: 170px 40px 43px 40px;
+  padding: 170px 50px 43px 50px;
   font-size: 34px;
   color: #fff;
   width: 100%;
@@ -221,7 +215,7 @@ header .header__content .header__content--description {
   text-align: center;
   padding: 23px 10px;
   text-transform: uppercase;
-  margin: 45px auto;
+  margin: 45px auto 22px auto;
   background-color: #3c3c3c;
   color: #fff;
 }
@@ -232,5 +226,30 @@ header .header__content .header__content--description {
 
 .contact .contact__button:active {
   background-color: #3c3c3c;
+}
+
+footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 65px auto;
+}
+
+footer .footer__logo {
+  margin: 0 35px;
+  display: block;
+}
+
+footer .footer__rights {
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
