@@ -1,0 +1,221 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+.block-wrapper{
+    margin: 160px auto;
+    max-width: 900px;
+    border: 2px solid #3c3c3c;
+    padding: 0 176px 30px 170px;
+    box-sizing: border-box;
+    .block-wrapper__title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 34px;
+        text-align: center;
+        margin: -20px auto 68px auto;
+        width: 420px;
+    }
+    .block-wrapper__text{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        line-height: 26px; 
+    }
+}
+
+.advantages{
+    margin: 96px 0 0 0;
+    text-align:center;
+    .advantages__logo{
+        width: 100%;
+        height: 150px;
+    }
+    .advantages__headline{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #3c3c3c;
+        margin: 0 0 25px 0;
+    }
+    .advantages__description{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #3c3c3c;
+        line-height: 25px;
+    }
+}
+
+
+header{
+    padding: 285px 10px 400px 10px;
+    width: 100%;
+    background-image: url(../images/top-background.jpg);
+    background-size: cover;
+    .header__content{
+        margin: 0 auto;
+        text-align: center;
+        max-width: 700px;
+        .header__content--logo{
+            margin: 0 0 94px 0;
+            }
+        .header__content--title{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            display: block;
+            text-align: center;
+            font-size: 54px;
+            color: #fff;
+            text-transform: uppercase;
+            line-height: 64px;
+            letter-spacing: 12px;
+        }
+        .header__content--description{
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 29px;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            max-width: 580px;
+            margin: 0 auto;
+        }
+    }
+}
+
+    .about{
+        font-size: 16px;
+        color: #3c3c3c;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        .about__title{
+            background-color: white;
+            color: #3c3c3c;
+        }
+    }
+
+
+
+.services{
+    background-image: url(../images/services-background.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 128px 0 109px 0;
+    .services__content{
+        border-color: white;
+        margin: 0 auto;
+        .services__content--title{
+            background-color: transparent;
+            color: #3c3c3c;
+        }
+        .services__content--text{
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            line-height: 26px;        
+        }
+    }
+}
+
+.description{
+    margin: 120px auto;
+    .description__headline{
+        background-color: white;
+        font-size: 34px;
+        color: #3c3c3c;
+        text-align: center;
+        margin: -20px auto 68px auto;
+        width: 420px;        
+    }
+}
+
+.row--wrapper{
+    margin: -5px 0 0 0 ;
+    box-sizing: border-box;
+    .row{
+        [class^="col-"]{
+            padding: 5px 0 5px 10px;
+            .row__content{
+                text-transform: uppercase;
+                padding: 170px 40px 43px 40px;
+                font-size: 34px;
+                color: #fff;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.contact{
+    .contact__title{
+        background-color: #fff;
+    }
+    .contact__button{
+        display: block;
+        border: none;
+        width: 395px;
+        text-align: center;
+        padding: 23px 10px;
+        text-transform: uppercase;
+        margin: 45px auto;
+        background-color: #3c3c3c;
+        color: #fff;
+        &:hover{
+            background-color: #534f4f;
+        }
+        &:active{
+            background-color: #3c3c3c;
+        }
+    }
+}
